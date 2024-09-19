@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="syle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Aventura do Basquete</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia desses, encontrei uma antiga carta de um famoso jogador de basquete, que deixou dicas sobre como encontrar a quadra secreta onde ele treinava. Decidi seguir as pistas!</p>
+            <button class="btn-proximo" data-proximo="1">Começar em São Paulo</button>
+            <button class="btn-proximo" data-proximo="2">Explorar o Rio de Janeiro</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em São Paulo, indo ao famoso Ibirapuera para buscar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista na quadra</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No Rio de Janeiro, você visita a praia de Copacabana. Uma das pistas menciona que a próxima dica está em um dos pontos turísticos. Por onde você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar o Posto 9</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a orla da praia</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Na quadra do Ibirapuera, você encontra uma mensagem antiga que revela que a próxima pista está no Nordeste.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Nordeste</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a aventura é muito arriscada e volta para casa, mas sempre se pergunta o que teria encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No Posto 9, você descobre uma bola de basquete antiga com um mapa escondido dentro dela, que indica que a próxima pista está no Nordeste.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Nordeste</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando a orla, você encontra um grupo jogando basquete, mas não há pistas sobre a quadra secreta.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e investigar o Posto 9</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Nordeste, você se depara com uma quadra abandonada cheia de grafites e histórias antigas.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar a quadra abandonada</button>
+            <button class="btn-proximo" data-proximo="10">Procurar por um jogador local</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta ao Posto 9, você encontra o mapa antigo. Agora, é hora de ir para o Nordeste!</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Nordeste</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A quadra abandonada revela uma mensagem secreta sobre a localização da quadra secreta de treinamento.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a quadra secreta</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Conversando com um jogador local, você descobre que ele conhece a localização da quadra secreta e decide te guiar.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir com o jogador</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/basquete imagem.jpg" alt="encontrando uma quadra secreta de basquete">
+            <p>Dentro da quadra secreta, você descobre tesouros do basquete e decide treinar lá para se tornar um grande jogador.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
